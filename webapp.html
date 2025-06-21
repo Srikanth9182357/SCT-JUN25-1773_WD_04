@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TaskMaster | To-Do App</title>
+  <link rel="stylesheet" href="webapp.css" />
+</head>
+<body>
+
+  <!-- Header / Landing -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">TaskMaster</div>
+      <div class="hamburger" id="hamburger">&#9776;</div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#todo">To-Do App</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <h1>Welcome to TaskMaster</h1>
+    <p>Organize your day with ease.</p>
+    <a href="#todo" class="cta-btn">Get Started</a>
+  </section>
+
+  <!-- To-Do App -->
+  <section class="todo-app" id="todo">
+    <h2>To-Do List</h2>
+    <div class="todo-form">
+      <input type="text" id="taskInput" placeholder="Task title" />
+      <input type="date" id="taskDate" />
+      <input type="time" id="taskTime" />
+      <button id="addTaskBtn">Add</button>
+    </div>
+    <ul id="taskList"></ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 TaskMaster</p>
+  </footer>
+
+  <script src="webapp.js"></script>
+</body>
+</html>
