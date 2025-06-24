@@ -10,10 +10,6 @@ A simple and intuitive To-Do application built using **HTML**, **CSS**, and **Ja
 - ❌ Delete tasks
 - 💾 Data persists using local storage (optional: if you implemented it)
 
-## 📸 Screenshots
-
-> *(Optional)* You can add screenshots of your app here  
-> `![App Screenshot](./screenshots/home.png)`
 
 ## 💻 Tech Stack
 
