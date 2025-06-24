@@ -1,19 +1,14 @@
-# 📝 To-Do App
+#To-Do App
 
 A simple and intuitive To-Do application built using **HTML**, **CSS**, and **JavaScript**. This app allows users to create, edit, and manage tasks with optional date and time settings. Perfect for organizing daily goals and tracking progress efficiently.
 
-## ✨ Features
+# Features
 
 - ✅ Add main tasks
 - 🕒 Set date and time for tasks
 - 📝 Edit existing tasks
 - ❌ Delete tasks
 - 💾 Data persists using local storage (optional: if you implemented it)
-
-## 🚀 Live Demo
-
-[🔗 View Live](https://your-github-username.github.io/your-repo-name)  
-*Replace with your actual GitHub Pages link if deployed.*
 
 ## 📸 Screenshots
 
